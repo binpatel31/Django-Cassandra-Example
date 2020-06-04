@@ -28,6 +28,12 @@ DEBUG = True
 ALLOWED_HOSTS = ["*"]
 
 
+#####################
+
+CONNECTION = None
+
+#####################
+
 # Application definition
 
 INSTALLED_APPS = [
