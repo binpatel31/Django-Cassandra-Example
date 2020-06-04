@@ -37,7 +37,8 @@ CONNECTION = None
 # Application definition
 
 INSTALLED_APPS = [
-    'app1.apps.App1Config',
+    'rest_framework',
+    'app1.apps.App1Config',   #### above this all are added by me
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
